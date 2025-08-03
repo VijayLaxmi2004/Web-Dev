@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox</title>
+</head>
+<body>
+    <form action="/me">
+        Are you 18+ : 
+        <label for="age">Yes, I am 18+</label>
+        <input type="checkbox" name="age" id="age" checked/>
+        <button type="Submit">Submit</button>
+        <hr>
+        <input type="radio" name="fruits" id="fruits" value="apple">
+        <label for="fruits"> apple </label>
+        <br>
+        <input type="radio" name="fruits" id="fruits" value="banana">
+        <label for="fruits"> banana </label>
+        <br>
+        <input type="radio" name="fruits" id="fruits" value="orange">
+        <label for="fruits"> orange </label> 
+        <br>
+        <button type="submit">Submit</button>
+        <hr>
+        <h3>Dropdown</h3>
+        <select name="Pro" id="profession">
+            <option value="stu">Student</option>
+            <option value="dev" selected>Developer</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+        <hr>
+        <label for="vol">Volume</label>
+        <input type="range" id="vol" name="vol" min="0" max="100" value="40" step="5">
+        <button type="submit">Submit</button>
+        <hr>
+        <label for="feedback"><h3>Provide feedback</h3></label>
+        <textarea id="feedback" name="fb" rows="25" cols="100" placeholder="Give Feedback"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    
+</body>
+</html>
